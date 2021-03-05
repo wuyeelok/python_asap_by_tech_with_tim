@@ -1,0 +1,3 @@
+msg = "sdfs"
+
+print(msg)

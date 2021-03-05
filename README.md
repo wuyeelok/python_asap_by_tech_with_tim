@@ -12,6 +12,7 @@ Python As Fast as Possible - Learn Python in ~75 Minutes by Tech With Tim
 # VS Code Extension
 
 - `Prettier` by _Esben Petersen_ (enable format on save by searching `formatOnSave` in the _Code -> Preferences -> Settings_ and **check** the box), use `opt` + `Shift` + `F` in _Mac OS_ or `Shift` + `Alt` + `F` in _Windows_ to format code for the _1st time use_.
+- `Python` by _Microsoft_
 
 # Rerference
 
