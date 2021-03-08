@@ -1,14 +1,3 @@
-x = 10
-y = 3
-
-# floor division operation
-result = x // y
-print(result)
-
-# remainder operation
-result = x % y
-print(result)
-
-
-num = input('Number: ')
-print(int(num) - 5)
+hello = 'Hello'
+print(type(hello))
+print(hello.upper().count('O'))
