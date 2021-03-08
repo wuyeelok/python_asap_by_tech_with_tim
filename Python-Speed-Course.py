@@ -8,3 +8,7 @@ print(result)
 # remainder operation
 result = x % y
 print(result)
+
+
+num = input('Number: ')
+print(int(num) - 5)
