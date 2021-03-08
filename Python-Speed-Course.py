@@ -1,3 +1,7 @@
-msg = "sdfs"
+hello = 'tim'
+world = 'world'
+world = hello
+hello = 'no'
 
-print(msg)
+print(hello, world)
+print(hello, world)
