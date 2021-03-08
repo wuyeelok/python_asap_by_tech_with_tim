@@ -1,6 +1,10 @@
-x = 9
+x = 10
 y = 3
 
-# divide will return float, so use function int to convert to integer
-result = int(x / y)
+# floor division operation
+result = x // y
+print(result)
+
+# remainder operation
+result = x % y
 print(result)
