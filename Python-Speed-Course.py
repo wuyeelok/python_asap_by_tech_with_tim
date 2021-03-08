@@ -1,13 +1,15 @@
-hello = 'Hello'
-y = 3
-world = "world"
+x = 7
+y = 8
+z = 0
 
-print(type(hello))
-print(hello.upper().count('O'))
-print(hello * y)
-print(hello + world)
+result1 = x == y
+result2 = y > x
+result3 = z < x+2
 
+print(result1 and result2)
+print(result1 or result2)
+print(not result3)
+print(result3 or not result2 or result1)
 
-print(hello == world)
-print('a' > 'Z')
-print(ord('a'))
+# for detail of operator precedence in Python see
+# https://docs.python.org/3/reference/expressions.html#operator-precedence
