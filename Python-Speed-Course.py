@@ -1,18 +1,15 @@
-# List
-myList = [4, True, 'Yo']
-print(len(myList))
+# for loop
+for i in range(10):
+    print(i)
 
-myList.append('World')
-print(myList)
+print()
 
-myList.extend([4, 7, 3, 8])
-print(myList)
+# for loop
+for i in range(5, 10):
+    print(i)
 
-myList.pop()
-print(myList)
+print()
 
-myList.pop(3)
-print(myList)
-
-myList[1] = 'YYYY'
-print(myList)
+# for loop
+for i in range(10, -1, -3):
+    print(i)
