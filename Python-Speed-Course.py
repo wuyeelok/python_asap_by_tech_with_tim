@@ -1,12 +1,9 @@
-x = input('Name: ')
+# List
+myList = [4, True, 'Yo']
+print(len(myList))
 
-if x == 'Ken':
-    print('Yes I am')
-elif x == 'Joe':
-    print('Bye Joe')
-elif x == 'Sarah':
-    print('bye bye')
-else:
-    print('You are not Ken')
+myList.append('World')
+print(myList)
 
-print('Always do this')
+myList.extend([4, 7, 3, 8])
+print(myList)
