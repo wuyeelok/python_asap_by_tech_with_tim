@@ -1,15 +1,5 @@
-# for loop
-for i in range(10):
-    print(i)
+myList = [3, "dsd", True, 4]
 
-print()
-
-# for loop
-for i in range(5, 10):
-    print(i)
-
-print()
-
-# for loop
-for i in range(10, -1, -3):
-    print(i)
+# Reverse printing of list
+for i in range(len(myList)-1, -1, -1):
+    print(myList[i])
