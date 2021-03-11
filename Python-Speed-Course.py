@@ -10,3 +10,7 @@ print(type(y))
 z = {2, 4, "sdf", 4}
 print(type(z))
 print(z)
+print('asfweef' in z)
+
+if("sdf" in z):
+    print("the element sdf in in Set z")
