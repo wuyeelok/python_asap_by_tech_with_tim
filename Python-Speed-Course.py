@@ -1,6 +1,12 @@
-myList = [3, "dsd", True, 4]
-myList2 = ['h1', 'hello', 'goodbye', 'cya', 'sure']
-s = "hello"
+# empty set
+x = set()
+print(type(x))
 
-sss = myList2[5:1:-2]
-print(sss)
+# empty dictionary
+y = {}
+print(type(y))
+
+# Init set, watch out the diff with dictionary
+z = {2, 4, "sdf", 4}
+print(type(z))
+print(z)
