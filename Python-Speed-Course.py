@@ -12,3 +12,7 @@ print(myDictionary.keys())
 
 if 9 in myDictionary:
     print("It has key 9")
+
+
+for key, value in myDictionary.items():
+    print(key, value)
