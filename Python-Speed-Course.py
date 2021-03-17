@@ -1,5 +1,6 @@
 def myFunc(x, y):
-    return x * y
+    return x * y, x / y
 
 
-print(myFunc(6, 7))
+r1, r2 = myFunc(18, 3)
+print(r1, r2)
