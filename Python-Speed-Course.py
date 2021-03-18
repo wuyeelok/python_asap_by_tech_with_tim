@@ -7,3 +7,15 @@ def my_mutiply(*numbers):
 
 
 print(my_mutiply(4, 2, 5))
+
+# Use start when calling and passing mutiple argument
+
+
+def myFunc(x, y):
+    print(x, y)
+
+
+pairs = [(1, 2), (3, 4)]
+
+for pair in pairs:
+    myFunc(*pair)
