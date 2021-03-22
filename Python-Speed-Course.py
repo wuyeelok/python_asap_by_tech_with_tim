@@ -1,11 +1,5 @@
-myList = [4, 6, 23, 34, 434, 2344, 24453, 1]
+name = 'Ken'
 
-myNewList = list(map(lambda i: i+2, myList))
+sentence = f"my name is {name} {{"
 
-myNewList2 = list(filter(lambda i: i % 2 == 0, myList))
-
-print(myList)
-print()
-print(myNewList)
-print()
-print(myNewList2)
+print(sentence)
